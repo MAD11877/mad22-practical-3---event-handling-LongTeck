@@ -26,7 +26,6 @@ public class MessageGroup extends AppCompatActivity {
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragment, Group1.class, null )
                         .setReorderingAllowed(true)
-                        .addToBackStack(null)
                         .commit();
             }
         });
@@ -38,7 +37,6 @@ public class MessageGroup extends AppCompatActivity {
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragment, Group2.class, null)
                         .setReorderingAllowed(true)
-                        .addToBackStack(null)
                         .commit();
             }
         });
